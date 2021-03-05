@@ -1,7 +1,7 @@
 {
-  "name": "sveleventy2",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Sveleventybook",
+  "version": "0.0.1",
+  "description": "An Eleventy starter project featuring Svelte and Storybook. #nojs",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
@@ -14,8 +14,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jan Drewniak",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
     "glob": "^7.1.6",
