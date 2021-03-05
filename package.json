@@ -1,0 +1,38 @@
+{
+  "name": "sveleventy2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
+    "lint": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "glob": "^7.1.6",
+    "storybook": "^6.1.20",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-controls": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/svelte": "^6.1.21",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.35.0",
+    "svelte-loader": "^3.0.0"
+  }
+}
